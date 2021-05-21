@@ -15,39 +15,14 @@
 <meta content="https://i.imgur.com/xRiyEnN.png" property="og:image">
 <meta content="#00b0f4" data-react-helmet="true" name="theme-color">
 <div class=loading>Loading&#8230;</div>
-<!-- Start of Async Drift Code -->
-<script>
-"use strict";
-
-!function() {
-  var t = window.driftt = window.drift = window.driftt || [];
-  if (!t.init) {
-    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-    t.factory = function(e) {
-      return function() {
-        var n = Array.prototype.slice.call(arguments);
-        return n.unshift(e), t.push(n), t;
-      };
-    }, t.methods.forEach(function(e) {
-      t[e] = t.factory(e);
-    }), t.load = function(t) {
-      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-      var i = document.getElementsByTagName("script")[0];
-      i.parentNode.insertBefore(o, i);
-    };
-  }
-}();
-drift.SNIPPET_VERSION = '0.3.1';
-drift.load('be652sp2kb8i');
-</script>
-<!-- End of Async Drift Code -->
 </head>
 <body>
 <script src=https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js></script>
 <script>$(window).on("load",function(){$(".loading").fadeOut("slow")});</script>
 <script>var TxtRotate=function(a,b,c){this.toRotate=b;this.el=a;this.loopNum=0;this.period=parseInt(c,10)||2000;this.txt="";this.tick();this.isDeleting=false};TxtRotate.prototype.tick=function(){var a=this.loopNum%this.toRotate.length;var c=this.toRotate[a];if(this.isDeleting){this.txt=c.substring(0,this.txt.length-1)}else{this.txt=c.substring(0,this.txt.length+1)}this.el.innerHTML='<span class="wrap">'+this.txt+"</span>";var b=this;var d=250-Math.random()*100;if(this.isDeleting){d/=2}if(!this.isDeleting&&this.txt===c){d=this.period;this.isDeleting=true}else{if(this.isDeleting&&this.txt===""){this.isDeleting=false;this.loopNum++;d=500}}setTimeout(function(){b.tick()},d)};window.onload=function(){var c=document.getElementsByClassName("txt-rotate");for(var b=0;b<c.length;b++){var d=c[b].getAttribute("data-rotate");var e=c[b].getAttribute("data-period");if(d){new TxtRotate(c[b],JSON.parse(d),e)}}var a=document.createElement("style");a.type="text/css";a.innerHTML=".txt-rotate > .wrap { border-right: 0.08em solid #666 }";document.body.appendChild(a)};</script>
+<a href=# class=scrolltop id=scroll-top>
+<i class='bx bx-up-arrow-alt scrolltop__icon'></i>
+</a>
 <header class=l-header id=header>
 <nav class="nav bd-container">
 <div class=nav__logo>
@@ -89,7 +64,7 @@ drift.load('be652sp2kb8i');
 <h3 class=accessory__title>Exotic Trainer</h3>
 <span class=accessory__category>Original R6.1</span>
 <span class=accessory__preci>97MB</span>
-<a href=error class="button accessory__button"><i class='bx bxs-download'></i></a>
+<a href="http://www.mediafire.com/file/1sppk18yjjr3m6k/BLACK_PROTECT_SAINT_v5.0.rar/file"><img class="img" src="your image.png" alt="" width="150" height="50" /></a>
 </div>
 <div class=accessory__content>
 <img src=assets/img/estar.png class=accessory__img draggable=false>
